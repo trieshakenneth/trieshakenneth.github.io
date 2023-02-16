@@ -1,0 +1,18 @@
+#me{
+    color:white ;
+    text-align:center
+}
+.mine{
+   color:yellow ;
+   text-align:center;
+}
+h3{
+   color: white;
+   text-align: center;	
+}
+img:hover{
+   transform: scale(1.1);
+   }
+img{
+   transition:transform 0.5s ease;
+   }
