@@ -3,15 +3,15 @@
     text-align:center
 }
 .mine{
-   color:yellow ;
+   color:#FFFF66;
    text-align:center;
 }
 h3{
-   color: white;
+   color:#FFFFFF;
    text-align: center;	
 }
 img:hover{
-   transform: scale(1.1);
+   transform: scale(1,1);
    }
 img{
    transition:transform 0.5s ease;
