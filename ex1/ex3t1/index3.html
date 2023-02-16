@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>PHONE</title>
+    <script>
+        function validate() {
+        var user = document.myform.usr.value;
+        var password = document.myform.pwd.value;
+        if (user == "" || password == "") {
+            alert("Both fields must be filled out");
+            document.myform.pwd.focus();
+          return false;
+        }
+        else{
+            alert("Valid");
+            }
+      }
+    </script> 
+</head>
+<body style="color:white;">
+    <div class="div-container">
+        <h1>Phone</h1>
+        <table align="center" cellpadding="25" frame="box">
+            <form name="myform">
+                <tr>
+                    <th><label for="username">Username:</label></th>
+                    <td>
+                        <input type="text" name="usr">
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="password">Password:</label></th>
+                    <td>
+                        <input type="password" name="pwd">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <table align="center">
+            <tr>
+                <td >
+                    <form method="post">
+                        <input  type="submit" value="Submit" onclick="validate()">
+                    </form>
+                </td>
+            </tr>
+            </table>
+            <table align="center">
+            <tr>
+                <td>
+                    <img src="ip.jpeg" height="200" width="230" class="mine"><br>
+                    <label for="rating"><b>rate the above picture</b></label>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </td>
+            </tr>
+        </table>
+            <div style="padding-bottom: 20px">
+                <b>Whice colour would you prefer?</b>
+                <form> 
+                    <tr><input type="radio" id="colour" name="colour" value="blue"/>blue</tr>    
+                    <br>  
+                    <input type="radio"  id="colour"  name="colour" value="gold"/> gold <br/>   
+                    <input type="radio"  id="colour" name="colour" value="white"/> white <br/>   
+                    <input type="radio"  id="colour" name="colour" value="grey"/> grey <br/> 
+                
+                </form> 
+            </div >  
+            <div style="padding-bottom: 20px;color:white;">
+                <b>from the menu choose the feature you like the mose</b>
+                <form > 
+                    <select name="options" id="feature">
+                        <option value="camera">camera</option>
+                        <option value="touch">touch</option>
+                        <option value="security">security</option>
+                      </select>
+                    </form> 
+            </div>
+            <div style="padding-bottom: 20px">
+                <b>which model of iphone is ur favourite</b>
+                <form> 
+                    <tr><input type="checkbox" value="answer1"/> Iphone13<br/>  
+                        <tr><input type="checkbox" value="answer1"/> Iphone13 pro<br/>  
+                            <tr><input type="checkbox" value="answer1"/> Iphone14<br/>   
+                
+                </form> 
+            </div>
+    
+
+    </div>
+
+</body>
+</html>s
