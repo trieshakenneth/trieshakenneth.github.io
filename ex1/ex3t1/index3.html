@@ -10,6 +10,8 @@
         var password = document.myform.pwd.value;
         if (user == "" || password == "") {
             alert("Both fields must be filled out");
+            document.myform.focus();
+
           
         }
         else{
@@ -51,7 +53,7 @@
               else
               {
                 alert("enter all values to submit");
-                document.form.focus();
+                document.gform.focus();
 
               }
         }
