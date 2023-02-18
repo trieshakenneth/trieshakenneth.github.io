@@ -17,7 +17,7 @@
             alert("Valid");
             }
       }
-      function age()
+      function cal()
         {
 
            if(document.gform.age.value>50)
@@ -26,12 +26,12 @@
 
            }
         }
-         function age()
+        function gpa()
         {
 
-           if(document.gform.age.value>50)
+           if(document.gform.gpa.value>10)
            {
-            alert("not eligible");
+            alert("enter correct value");
 
            }
         }
@@ -93,7 +93,7 @@
     <div align="center">
         Name:<input type="text" name="name"><br/><br/>
         DOB:<input type="date" name="dob"><br/><br/>
-        age<input type="text" name="age" onClick="cal"><br/><br/>
+        age<input type="number" name="age" onClick="cal()"><br/><br/>
         cgpa:<input type="number" name="gpa" onClick="mark()"><br/><br/>
         
         
