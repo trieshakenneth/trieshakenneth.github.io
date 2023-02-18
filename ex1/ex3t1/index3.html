@@ -6,17 +6,23 @@
     <title>PHONE</title>
     <script>
         function validate() {
-        var user = document.myform.usr.value;
-        var password = document.myform.pwd.value;
-        if (user == "" || password == "") {
-            alert("Both fields must be filled out");
-            document.myform.focus();
-
-          
+            f=1
+      
+        if (document.myform.pwd.value=="" || document.myform.usr.value=="")
+        {
+            f=0;
         }
-        else{
-            alert("Valid");
-            }
+            
+            
+              if(f==1)
+              {
+                alert("validated");
+              }
+              else
+              {
+                alert("enter all values to submit");
+                document.myform.focus();
+              }
       }
       function cal()
         {
@@ -40,7 +46,7 @@
        
             function validate2()
         {
-            var f=1;
+           
             if(document.gform.name.value==""||document.form.dob.value==""||document.form.age.value==""||document.form.gpa.value=="")
             {
                 f=0;
