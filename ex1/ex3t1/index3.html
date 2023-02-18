@@ -10,8 +10,7 @@
         var password = document.myform.pwd.value;
         if (user == "" || password == "") {
             alert("Both fields must be filled out");
-            document.myform.pwd.focus();
-          return false;
+          
         }
         else{
             alert("Valid");
@@ -90,14 +89,12 @@
             </table>
         
 <form name="gform">
-    <div align="center">
+    <div align="center" frane=box>
         Name:<input type="text" name="name"><br/><br/>
         DOB:<input type="date" name="dob"><br/><br/>
         age<input type="number" name="age" onClick="cal()"><br/><br/>
         cgpa:<input type="number" name="gpa" onClick="mark()"><br/><br/>
         
-        
-       
     </div> 
     <div align="center">
         <input type="submit" value="submit" onClick="validate2()">
