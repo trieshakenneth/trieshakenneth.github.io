@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  
+  .special {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .container {
+    width: 500px;
+    clear: both;
+  }
+  .table {
+    display: table;
+  }
+  .tablerow {
+    display: table-row;
+  }
+  .tablecell {
+    display: table-cell;
+  }
+  .description {
+    display: table-cell;
+    height: 150px;
+  }
