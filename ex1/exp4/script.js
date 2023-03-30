@@ -5,7 +5,7 @@ function validate() {
     }
 
     if(flag == 0) {
-        alert("Check'yer data mate");
+        alert("data to be entered");
     }
     var name = /^[a-z ,.'-]+$/i;
     var num = /^[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/;
@@ -27,16 +27,16 @@ function validate() {
     }
 
     if (!document.forms["myform"]["p_no"].value.match(pan)) {
-        alert('Check your P Identity');
+        alert('Check your Pan');
         flag = 0;
     }
 
     if (!document.forms["myform"]["c_no"].value.match(num)) {
-        alert('Check your Contact Detes');
+        alert('Check your Contact');
         flag = 0;
     }
     if (!document.forms["myform"]["email"].value.match(mail)) {
-        alert('Check your Mail Choom');
+        alert('Check your Mail');
         flag = 0;
     }
     if (!document.forms["myform"]["dob"].value.match(dob)) {
@@ -44,7 +44,7 @@ function validate() {
         flag = 0;
     }
     if (!document.forms["myform"]["sex"].value.match(sex)) {
-        alert('Check your Orientation');
+        alert('Check your sex');
         flag = 0;
     }
 
