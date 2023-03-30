@@ -23,12 +23,12 @@ public class display extends HttpServlet {
             PreparedStatement pstmt = conn.prepareStatement(sql);
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
-                // Retrieve by column name
+
                 String id = rs.getString("id");
                 String name = rs.getString("name");
                 String grade = rs.getString("grade");
                 String mark = rs.getString("mark");
-                // Display values
+                
                 out.println("<p> ID: " + id + "<br>");
                 out.println("Name: " + name + "<br>");
                 out.println("Grade: " + grade + "<br>");
@@ -36,7 +36,7 @@ public class display extends HttpServlet {
             }
             out.println("</body></html>");
             rs.close();
-            // Clean-up environment
+            
             stmt.close();
             conn.close();
         } catch (Exception e) {
