@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Create profile</h1>
+    <h1>Create</h1>
     <form action="./create" method="post">
         <label for="id">ID:</label>
         <input type="text" id="id" name="id"><br>
@@ -26,14 +26,16 @@
     <a href="./display">Display all student details</a>
 
     <br><br>
-    <h1 >Alter profile</h1>
+    <h1 >Alter</h1>
     <form action="./update" method="get" >
-        Name:<input type="text" name="name"></input>
-        Mark:<input type="text" name="mark"></input>
-        <input type="submit" value="Submit"></input>
+        <label for="name">Name:</label>
+        <input type="text" name="name">
+        <label for="name">Mark:</label>
+        <input type="text" name="mark">
+        <input type="submit" value="Submit">
     </form>
     <br><br>
-    <h1 colour="red">Delete profile</h1>
+    <h1 colour="red">Delete</h1>
     <form action="./delete" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
