@@ -28,7 +28,7 @@ public class create extends HttpServlet {
             pstmt.setString(2, name);
             pstmt.setString(3, grade);
             pstmt.setString(4, mark);
-            int rowsAffected = pstmt.executeUpdate();
+            pstmt.executeUpdate();
 
             String test="student succesfully inserted!!";
             out.println("<html><body>");
