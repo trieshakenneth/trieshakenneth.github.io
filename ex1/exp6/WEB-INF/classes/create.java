@@ -35,7 +35,6 @@ public class create extends HttpServlet {
             out.println("<h3> " + test + "</h3>");
             out.println("</body></html>");
 
-            // Clean up resources
             stmt.close();
             conn.close();
 
