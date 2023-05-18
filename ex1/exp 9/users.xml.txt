@@ -1,0 +1,102 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1">
+    <name>Iphone 12</name>
+    <cost>40,000</cost>
+    <feature>
+      <camera>120 pixel</camera>
+      <memeory>128 gb</memeory>
+      <battery>24 hrs</battery>
+      
+   </feature>
+  </user>
+<user id="2">
+    <name>Iphone 14</name>
+    <cost>34,000</cost>
+    <feature>
+      <camera>128 pixel</camera>
+      <memeory>156 gb </memeory>
+      <battery>26 hrs</battery>
+      
+   </feature>
+  </user>
+  <user id="3">
+    <name>Iphone 14 pro</name>
+    <cost>20,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128 gb</memeory>
+      <battery>24 hrs</battery>
+      
+   </feature>
+  </user>
+  <user id="4">
+    <name>Iphone 12</name>
+    <cost>20,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+      
+   </feature>
+  </user>
+  <user id="5">
+    <name>Iphone 11</name>
+    <cost>20,000</cost>
+    <feature>
+      <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+      
+   </feature>
+  </user>
+ <user id="6">
+    <name>Iphone 10</name>
+    <cost>20,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+      
+   </feature>
+  </user>
+ <user id="7">
+    <name>Iphone 9</name>
+    <cost>20,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+   </feature>
+  </user>
+  <user id="8">
+    <name>Iphone 11 pro</name>
+    <cost>50,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+   </feature>
+  </user>
+  <user id="9">
+    <name>Iphone 13 pro</name>
+    <cost>80,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+   </feature>
+  </user>
+ <user id="10">
+    <name>Iphone 9pro</name>
+    <cost>70,000</cost>
+    <feature>
+     <camera>120 pixel</camera>
+      <memeory>128</memeory>
+      <battery>24 hrs</battery>
+   </feature>
+  </user>
+</users>
+
+
